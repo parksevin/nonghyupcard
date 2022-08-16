@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font: 16px/1 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'gulim', '굴림';
+    font-weight: 400; 
+    color: #666;
+    line-height: 1.6;
+    letter-spacing: -0.025em;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+i,em,address {
+    font-style: normal;
+}
+
+header,main,footer,section,article,nav,aside {display:block;}
+
+h1,h2,h3,h4,h5,h6 { 
+    font-size: 16px; 
+    font-weight:normal;
+}
+
+.blind {
+    display: block;
+    text-indent: -2000px;
+    overflow: hidden;
+}
+
+.hide { 
+    display: none;
+}
+
+button { border: 0;}
